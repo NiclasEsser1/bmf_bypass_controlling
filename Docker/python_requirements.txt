@@ -6,6 +6,5 @@ paramiko[gssapi]
 pyasn1
 pyasn1-modules
 interactive
-socket
 astropy
 pandas
