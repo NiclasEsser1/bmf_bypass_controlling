@@ -3,8 +3,8 @@ from inc.config import *
 
 
 def sniff_packet(node, port_idx = 0):
-    # sniffer.append(SSHConnector(host=node.host, user=USER, logfile="log/snifflogger_" + node.node_name))
-    sniffer = SSHConnector(host="192.168.0.3", user="niclas", password="cAevN3SC", logfile="log/snifflogger_"+ node.node_name+".log")
+    sniffer.append(SSHConnector(host=node.host, user=USER, logfile="log/snifflogger_" + node.node_name))
+    # sniffer = SSHConnector(host="192.168.0.3", user=USER, logfile="log/snifflogger_"+ node.node_name+".log")
     sniffer.connect()
     sniffer.open_shell()
     out = sniffer.execute(
