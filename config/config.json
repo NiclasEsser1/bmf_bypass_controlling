@@ -1,0 +1,29 @@
+{
+  "routing_table" : "routing_table_beams2node.csv",
+  "dada_key_odd" : "dada",
+  "dada_key_even" : "dadc",
+  "packet_start" : 0,
+  "center_freq" : 1337.0,
+  "log_file" : "log/",
+  "cpus_per_node" : 10,
+  "capture_control" : 0,
+  "bind_cpu" : 1,
+  "nof_data_frame_per_block" : 16384,
+  "nof_data_frame_tmp_buffer" : 128,
+  "dir_to_dada_header_file" : "config/header_dada.txt",
+  "dir_to_dada_header_file" : "config/header_dada.txt",
+  "soure_information" : "UNKNOWN_00:00:00.00_00:00:00.00",
+  "padding" : 0,
+  "launch_script" : {
+      "directory" : "/home/niclas/SoftwareProjekte/phased-array-feed/",
+      "name":"launch_capture.py",
+      "expected_start" : "success",
+      "failed_out" : "Traceback"
+  },
+  "time_ref_script" : {
+      "directory" : "/home/niclas/SoftwareProjekte/phased-array-feed/script/time_ref.py",
+      "expected_start" : "SOS",
+      "expected_end" : "EOS",
+      "failed_out" : "Traceback"
+    }
+}
