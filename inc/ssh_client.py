@@ -186,7 +186,7 @@ class SSHConnector():
                         gss_kex=self.gss_kex)
                 except Exception as e:
                     raise SSHConnectorError("Could not connect via Kerberos; Error: " + str(e.__class__) + ": " + str(e))
-
+            print("Connected!")
         except Exception as e:
                 raise SSHConnectorError("connect() failed with: "  + str(e.__class__) + ": " + str(e))
 
