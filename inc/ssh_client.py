@@ -23,6 +23,7 @@ import base64
 import sys
 import os
 import time
+import socket
 from os import path
 from time import gmtime, strftime
 import re
@@ -116,7 +117,7 @@ class SSHConnector():
         close()
             Closes the connection of SFTPClient and SSHClient
     """
-    def __init__(self, host=None, user=None, password=None, port=22, gss_auth=False, gss_kex=False, log_level="INFO", logfile="", client_id=0):
+    def __init__(self, host=None, user=None, password=None, port=22, gss_auth=False, gss_kex=False, log_level="INFO", logfile="", timeout=15, client_id=0):
         """
         Description:
         ------------
@@ -134,6 +135,10 @@ class SSHConnector():
         self.gss_kex = gss_kex
         self.id = paramiko.util.get_thread_id()
         self.log_level = log_level
+        self.timeout = timeout
+        self.shell_active = False
+        self.sftp_active = False
+
         if logfile == "":
             self.logfile = "log/client" +str(self.id)+ "_" +strftime("%Y%m%d_%H%M%S", gmtime())+ ".log"
         else:
@@ -171,7 +176,8 @@ class SSHConnector():
                         hostname=self.host,
                         port=self.port,
                         username=self.user,
-                        password=self.password)
+                        password=self.password,
+                        timeout=self.timeout)
                 except Exception as e:
                     raise SSHConnectorError("Could not connect via SSH: " + str(e.__class__) + ": " + str(e))
             # Try to connect with gssapi and Kerberos ticket authentication
@@ -182,6 +188,7 @@ class SSHConnector():
                         port=self.port,
                         username=self.user,
                         password=self.password,
+                        timeout=self.timeout,
                         gss_auth=self.gss_auth,
                         gss_kex=self.gss_kex)
                 except Exception as e:
@@ -233,29 +240,34 @@ class SSHConnector():
             self.shell = self.client.invoke_shell()
         except Exception as e:
             raise SSHConnectorError("open_shell() failed with:"  + str(e.__class__) + ": " + str(e))
+        self.shell_active = True
+
     def open_sftp(self):
         try:
             self.sftp = self.client.open_sftp()
         except Exception as e:
             raise SSHConnectorError("open_sftp() failed with:"  + str(e.__class__) + ": " + str(e))
-
+        self.sftp_active = True
     def execute(self, cmd, expected_succes_string, expected_fail_string):
         if not self.shell:
             return
         self.shell.sendall(cmd + "\r\n")
         output = ""
+        timeout_cnt = 0
         while True:
             try:
                 data = self.shell.recv(1 << 15)
             except socket.timeout:
-                continue
+                self.log.error("execute() client did not respond: timeout")
+                raise SSHConnectorError("execute() client did not respond: timeout" + cmd)
             output += data
             if output.find(expected_succes_string) != -1:
                 self.log.info(output)
                 return output
             if output.find(expected_fail_string) != -1:
-                self.log.error("execute() failed with command: " + cmd)
+                self.log.error("execute() failed with command: " + cmd + "Erro msg: " + output)
                 raise SSHConnectorError("execute() failed with command: " + cmd)
+
 
             # time.sleep(1)
     def download_files(self, src_dir, dst_dir, fnames):
@@ -324,10 +336,16 @@ class SSHConnector():
             None
         """
         print("Closing connection")
-        try:
-            self.sftp.close()
-        except:
-            raise SSHConnectorError("close() failed with:"  + str(e.__class__) + ": " + str(e))
+        if self.sftp_active:
+            try:
+                self.sftp.close()
+            except:
+                raise SSHConnectorError("close() failed with:"  + str(e.__class__) + ": " + str(e))
+        if self.shell_active:
+            try:
+                self.shell.close()
+            except:
+                raise SSHConnectorError("close() failed with:"  + str(e.__class__) + ": " + str(e))
         try:
             self.client.close()
         except:

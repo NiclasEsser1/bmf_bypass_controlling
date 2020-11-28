@@ -10,20 +10,26 @@
   "bind_cpu" : 1,
   "nof_data_frame_per_block" : 16384,
   "nof_data_frame_tmp_buffer" : 128,
-  "dir_to_dada_header_file" : "config/header_dada.txt",
-  "dir_to_dada_header_file" : "config/header_dada.txt",
+  "dir_to_dada_header_file" : "/home/pulsar/nesser/Projects/phased-array-feed/config/header_dada.txt",
   "soure_information" : "UNKNOWN_00:00:00.00_00:00:00.00",
   "padding" : 0,
+  "script_dir" : "/home/pulsar/nesser/Projects/phased-array-feed/script/",
   "launch_script" : {
-      "directory" : "/home/niclas/SoftwareProjekte/phased-array-feed/",
       "name":"launch_capture.py",
-      "expected_start" : "success",
-      "failed_out" : "Traceback"
+      "expected_start" : "SOS",
+      "expected_start" : "EOS",
+      "failed" : "Traceback"
+  },
+  "shutdown_script" : {
+      "name":"shutdown_script.py",
+      "expected_start" : "SOS",
+      "expected_start" : "EOS",
+      "failed" : "Traceback"
   },
   "time_ref_script" : {
-      "directory" : "/home/niclas/SoftwareProjekte/phased-array-feed/script/time_ref.py",
+      "name" : "time_ref.py",
       "expected_start" : "SOS",
       "expected_end" : "EOS",
-      "failed_out" : "Traceback"
+      "failed" : "Traceback"
   }
 }
