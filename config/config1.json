@@ -1,11 +1,9 @@
 {
-  "routing_table" : "routing_table_beams2node.csv",
+  "routing_table" : "routing_table.csv",
   "dada_key_odd" : "dada",
   "dada_key_even" : "dadc",
   "packet_start" : 0,
   "center_freq" : 1337.0,
-  "band_groups" : 48,
-  "bandwidth_group" : 7,
   "log_file" : "log/",
   "cpus_per_node" : 10,
   "capture_control" : 0,
@@ -15,17 +13,16 @@
   "nof_dada_blocks" : 2,
   "dada_block_size" : 4265607168,
   "nof_data_frame_tmp_buffer" : 128,
-  "nof_data_frame_per_capture" : 163840,
-  "remote_config_dir" : "/home/pulsar/nesser/Projects/phased-array-feed/config/",
+  "remote_config_dir" : "/media/scratch/nesser/Projects/phased-array-feed/config/",
   "local_config_dir" : "/media/scratch/nesser/Projects/bmf_bypass_controlling/config/",
   "docker_config_dir" : "/phased-array-feed/config/",
   "template_dada_header" : "header_dada.txt",
   "soure_information" : "UNKNOWN_00:00:00.00_00:00:00.00",
   "padding" : 0,
-  "script_dir" : "/home/pulsar/nesser/Projects/phased-array-feed/script/",
+  "script_dir" : "/media/scratch/nesser/Projects/phased-array-feed/script/",
   "launch_script" : {
       "name":"launch_capture.py",
-      "expected_start" : "success",
+      "expected_start" : "SOS",
       "expected_start" : "EOS",
       "failed" : "Traceback"
   },
@@ -48,7 +45,7 @@
       "failed" : "Traceback"
   },
   "capture_main" : {
-      "directory" : "/phased-array-feed/src/capture_bypassed_bmf/",
+      "directory" : "/media/scratch/nesser/Projects/phased-array-feed/src/capture_bypassed_bmf/",
       "name" : "capture_main"
   }
 }

@@ -8,8 +8,9 @@ import numpy as np
 UNSET_PORT=0
 UNSET_MAC="0x020000000000"
 UNSET_IP="00.00.0.0"
-
 USER="pulsar"
+PASSWORD=""
+
 
 inet = {
     "10.17.0.1" : "pacifix0",
@@ -32,6 +33,28 @@ inet = {
     "10.17.8.1" : "pacifix8"
 }
 
+# Used for test purposes on edd01
+# inet = {
+#     "10.17.0.1" : "edd01",
+#     "10.17.0.2" : "edd01",
+#     "10.17.1.1" : "edd01",
+#     "10.17.1.2" : "edd01",
+#     "10.17.2.1" : "edd01",
+#     "10.17.2.2" : "edd01",
+#     "10.17.3.1" : "edd01",
+#     "10.17.3.2" : "edd01",
+#     "10.17.4.1" : "edd01",
+#     "10.17.4.2" : "edd01",
+#     "10.17.5.1" : "edd01",
+#     "10.17.5.2" : "edd01",
+#     "10.17.6.1" : "edd01",
+#     "10.17.6.2" : "edd01",
+#     "10.17.7.1" : "edd01",
+#     "10.17.7.1" : "edd01",
+#     "10.17.8.1" : "edd01",
+#     "10.17.8.1" : "edd01"
+# }
+
 class ConfigError(Exception):
     pass
 
@@ -46,11 +69,11 @@ class Config:
         # Load all config files
         try:
             self.config_file = open(self.conf_path, 'r')
-            self.config_data = json.load(self.config_file)
+            self.data = json.load(self.config_file)
         except Exception as e:
             raise ConfigError("Failed to init json config: " + str(e.__class__) + str(e))
         try:
-            self.rt_path = self.dir + self.config_data["routing_table"]
+            self.rt_path = self.dir + self.data["routing_table"]
             self.df = pd.read_csv(self.rt_path)
             self.rt = self.df.T.to_dict()
         except Exception as e:
@@ -75,23 +98,29 @@ class Config:
                     self.numa_dict[numa_id]["mac"] = val
                     self.numa_dict[numa_id]["ip"] = self.rt[key_out]["IP"+str(beamid)]
                     self.numa_dict[numa_id]["beams"].append([beamid,self.rt[key_out]["PORT"+str(beamid)]])
+                    self.numa_dict[numa_id]["bandid"] = self.rt[key_out]["BANDID"]
+        print(self.numa_dict)
 
         # construct command line pattern for argument 'c' of capture_main program (ip_port_expectedbeams_actualbeams_cpu)
         self.numa_list = []
         for idx, key in enumerate(self.numa_dict.keys()):
-            self.numa_list.append(NumaNode(idx, key, self.config_data, self.numa_dict[key]))
+            self.numa_list.append(NumaNode(idx, key, self.data, self.numa_dict[key]))
             self.numa_list[-1].construct_pattern()
 
 class NumaNode:
     def __init__(self, id, node_name, config, dictionary):
-        self.id = id
+        self.id = id%2
         self.node_name = node_name
+        self.dockername = "capture_bypassed_bmf_"+self.node_name
         self.config = config
         self.mac = dictionary["mac"]
         self.ip = dictionary["ip"]
         self.host = inet[self.ip]
+        self.bandid = dictionary["bandid"]
+        self.freq = float(config["center_freq"] + (self.bandid - config["band_groups"]/2)*config["bandwidth_group"]) +config["bandwidth_group"]/2
         self.beam_port = np.asarray(dictionary["beams"])
-        self.cmd_pattern = ""
+        self.storage_dir = config["root_storage_dir"] + self.node_name + "/"
+        self.cmd_pattern = config["capture_main"]["directory"] + config["capture_main"]["name"]
         if self.id%2:
             self.start_cpu = self.config["cpus_per_node"]
             self.key = self.config["dada_key_odd"]
@@ -115,7 +144,9 @@ class NumaNode:
         self.cmd_pattern += " -k " + str(self.config["bind_cpu"])
         self.cmd_pattern += " -l " + str(self.config["nof_data_frame_per_block"])
         self.cmd_pattern += " -m " + str(self.config["nof_data_frame_tmp_buffer"])
-        self.cmd_pattern += " -n " + self.config["dir_to_dada_header_file"]
+        self.cmd_pattern += " -n " + self.config["remote_config_dir"] + self.config["template_dada_header"]
         self.cmd_pattern += " -o " + self.config["soure_information"]
         self.cmd_pattern += " -p " + str(self.config["padding"])
+        self.cmd_pattern += " -q " + str(self.freq)
+        self.cmd_pattern += " -r " + str(self.config["nof_data_frame_per_capture"])
         # print(self.cmd_pattern)

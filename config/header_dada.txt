@@ -9,7 +9,7 @@ PACKET_SIZE  7232                # CODIF packet with raw and meta data. ETH, IPV
 BUFFER_SIZE  4265607168           # 36*1024 packets per block
 
 # DADA parameters
-OBS_ID       unset               # observation ID
+OBS_ID       1               # observation ID
 PRIMARY      BMF                 # primary node host name
 SECONDARY    PACIFIX1            # secondary node host name
 FILE_NAME    test.dada           # full path of the data file
@@ -27,7 +27,7 @@ OBS_OVERLAP  0                   # bytes by which neighbouring files overlap
 TELESCOPE    Effelsberg        # telescope name
 INSTRUMENT   PAF-BMF           # instrument name
 RECEIVER     PAF               # Frontend receiver
-FREQ         unset             # centre frequency in MHz
+FREQ         1337             # centre frequency in MHz
 BW           336               # bandwidth of in MHz (-ve lower sb)
 TSAMP        0.84375           # sampling interval in microseconds
 

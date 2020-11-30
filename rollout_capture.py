@@ -1,63 +1,81 @@
 from inc.ssh_client import *
 from inc.config import *
-
+import subprocess
+from subprocess import Popen, PIPE
+import time
 
 def sniff_packet(node, port_idx = 0):
-    print("Sniffing packet on "+node.host+":"+str(node.ports[port_idx])+"to determine time reference")
+    print("Sniffing packet on "+node.host+":"+str(node.ports[port_idx])+" to determine time reference")
     sniffer = (SSHConnector(host=node.host, user=USER, gss_auth=True, gss_kex=True, logfile="log/snifflogger_" + node.node_name))
     # sniffer = SSHConnector(host="192.168.0.3", user=USER, logfile="log/snifflogger_"+ node.node_name+".log")
     sniffer.connect()
     sniffer.open_shell()
     out = sniffer.execute(
-        "python "+config.config_data["script_dir"]+config.config_data["time_ref_script"]["name"]+ " -i " + str(node.ip) + " -p " + str(node.ports[port_idx]),
-        config.config_data["time_ref_script"]["expected_start"],
-        config.config_data["time_ref_script"]["failed"])
+        "python "+config.data["script_dir"]+config.data["time_ref_script"]["name"]+ " -i " + str(node.ip) + " -p " + str(node.ports[port_idx]),
+        config.data["time_ref_script"]["expected_start"],
+        config.data["time_ref_script"]["failed"])
     sniffer.close()
-    time_ref = string_between(out, config.config_data["time_ref_script"]["expected_start"],config.config_data["time_ref_script"]["expected_end"])
+    time_ref = string_between(out, config.data["time_ref_script"]["expected_start"],config.data["time_ref_script"]["expected_end"])
     print("Time reference is: "+time_ref)
     return time_ref
 
-
 config = Config("./config", "config.json")
-script_dir = config.config_data["script_dir"]
-time_ref = sniff_packet(config.numa_list[0])
-
-# Create a server to communicate with launch_capture programs
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(ip, port)
-sock.listen(config.numa_list.size())
-conn, addr = sock.accept()
+script_dir = config.data["script_dir"]
 
 client_list = []
+process_list = []
 
-
+cmdline_file = config.data["remote_config_dir"]+ "command_line"
+print(cmdline_file)
 print("Launching capture dockers on pacifix nodes")
 
-for idx, node in enumerate(config.numa_list):
-    node.cmd_pattern += " -f " + time_ref
-    node.ssh_client = SSHConnector(host=node.host, user=USER, gss_auth=True, gss_kex=True, logfile="log/logger_" + node.node_name)
+for node in config.numa_list:
+    # Create a storage directory for each node
+    if not os.path.exists(node.storage_dir):
+        os.mkdir(node.storage_dir)
+    # Add time reference to each capture command pattern
+    # Establish SSH connection to each node (Kerberos)
+    node.ssh_client = SSHConnector(host=node.host, user=USER, password=PASSWORD, gss_auth=True, gss_kex=True, logfile="log/logger_" + node.node_name)
     node.ssh_client.connect()
     node.ssh_client.open_sftp()
-    node.ssh_client.upload("config/header_dada.txt", config.config_data["dir_to_dada_header_file"])
+    node.ssh_client.upload(config.data["local_config_dir"] + config.data["template_dada_header"], config.data["remote_config_dir"] + config.data["template_dada_header"])
     node.ssh_client.open_shell()
-    node.ssh_client.execute("echo '"+node.cmd_pattern+"' >> "+script_dir+"command_line_args.txt; echo success", "success", "fail")
-    launch_cmd = "python "+script_dir+config.config_data["launch_script"]["name"]+ " -n " +str(node.node_name) + " -c "+script_dir+"command_line_args.txt"
-    print(launch_cmd)
-    out = node.ssh_client.execute(launch_cmd,
-        config.config_data["launch_script"]["expected_start"],
-        config.config_data["launch_script"]["failed"])
+    # Write commands executed from inside Docker into a file
+    out = node.ssh_client.execute("echo 'dada_db -k " +node.key+ " -d' > " +cmdline_file + str(node.id) + ".txt", "", "fail")
+    out = node.ssh_client.execute("echo 'numactl -m " +str(node.id)+ " dada_db -k " +node.key+ " -l -p -b " +str(config.data["dada_block_size"])+ " -n " +str(config.data["nof_dada_blocks"])+ "' >> " +cmdline_file + str(node.id) + ".txt", "", "fail")
+    out = node.ssh_client.execute("echo 'numactl -m " +str(node.id)+ " dada_dbdisk -k " +node.key+ " -D " +node.storage_dir+ " -W -d -s' >> " +cmdline_file + str(node.id) + ".txt", "", "fail")
 
+    # Launching dockers on each node
+    launch_cmd = "python " + script_dir + config.data["launch_script"]["name"] + " -n " +str(node.dockername) + " -c " + cmdline_file + str(node.id) + ".txt"
+    p1 = Popen(node.ssh_client.execute(launch_cmd, "", "failed"), shell=True,  stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    # node.ssh_client.close()
+
+
+print("Wait for init...")
+time.sleep(10)
+
+# time_ref = sniff_packet(config.numa_list[0])
+
+
+while raw_input("Start capture?y/n") == "y":
+    for node in config.numa_list:
+        # node.cmd_pattern += " -f " + str(time_ref)
+        node.cmd_pattern = "dada_junkdb -k " +node.key+ " -b 8531214336 -c f -r 2432.666 "+ config.data["docker_config_dir"] + config.data["template_dada_header"]
+        node.ssh_client2 = SSHConnector(host=node.host, user=USER, password=PASSWORD, gss_auth=True, gss_kex=True, logfile="log/logger_" + node.node_name)
+        node.ssh_client2.connect()
+        node.ssh_client2.open_shell()
+        node.ssh_client2.execute("echo '"+node.cmd_pattern+"' >> " +cmdline_file + str(node.id) + ".txt", "", "fail")
+        start_cmd = "python " + script_dir + config.data["start_script"]["name"] + " -n " +str(node.dockername) + " -c " + cmdline_file + str(node.id) + ".txt" + " -t " + config.data["remote_config_dir"] + config.data["template_dada_header"]
+        node.ssh_client2.execute(start_cmd, "", "failed")
+
+    for node in config.numa_list:
+        node.ssh_client2.close()
 
 stop = raw_input("Enter key to stop capture...")
-
 for node in config.numa_list:
-    shutdown_cmd = "python " + script_dir + config.config_data["shutdown_script"]["name"] + " -n " + node.node_name
-    node.ssh_client.execute(shutdown_cmd,
-        config.config_data["shutdown_script"]["expected_start"],
-        config.config_data["shutdown_script"]["failed"])
-    print("Docker stopped on " +  node.node_name)
-
-sleep(2)
+    node.ssh_client.execute("docker stop "+node.dockername, "", "failed")
+    node.ssh_client.execute("docker container rm "+node.dockername, "", "failed")
+    print("Docker " +  node.dockername + " stopped")
 
 for node in config.numa_list:
     node.ssh_client.close()

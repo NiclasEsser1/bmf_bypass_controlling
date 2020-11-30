@@ -340,12 +340,12 @@ if __name__ == "__main__":
     nbeam = 36
     nchunk_offset = 0
 
-    nchunk = 4
+    nchunk = 2
     nbeam = 1
     nchunk_offset = 0
 
     routing_table = RoutingTable(
         destinations, nbeam, nchunk, nchunk_offset, center_freq)
-    routing_table.save_csv("routing_table_beams2node")
+    routing_table.save_csv("config/routing_table_beams2node")
     print(routing_table.center_freq_stream())
-    routing_table.upload_table()
+    # routing_table.upload_table()

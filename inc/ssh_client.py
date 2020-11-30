@@ -252,7 +252,6 @@ class SSHConnector():
         if not self.shell:
             return
         self.shell.sendall(cmd + "\r\n")
-        output = ""
         timeout_cnt = 0
         while True:
             try:
@@ -260,7 +259,7 @@ class SSHConnector():
             except socket.timeout:
                 self.log.error("execute() client did not respond: timeout")
                 raise SSHConnectorError("execute() client did not respond: timeout" + cmd)
-            output += data
+            output = data
             if output.find(expected_succes_string) != -1:
                 self.log.info(output)
                 return output
