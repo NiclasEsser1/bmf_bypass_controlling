@@ -99,7 +99,7 @@ class Config:
                     self.numa_dict[numa_id]["ip"] = self.rt[key_out]["IP"+str(beamid)]
                     self.numa_dict[numa_id]["beams"].append([beamid,self.rt[key_out]["PORT"+str(beamid)]])
                     self.numa_dict[numa_id]["bandid"] = self.rt[key_out]["BANDID"]
-        print(self.numa_dict)
+        # print(self.numa_dict)
 
         # construct command line pattern for argument 'c' of capture_main program (ip_port_expectedbeams_actualbeams_cpu)
         self.numa_list = []
@@ -144,7 +144,7 @@ class NumaNode:
         self.cmd_pattern += " -k " + str(self.config["bind_cpu"])
         self.cmd_pattern += " -l " + str(self.config["nof_data_frame_per_block"])
         self.cmd_pattern += " -m " + str(self.config["nof_data_frame_tmp_buffer"])
-        self.cmd_pattern += " -n " + self.config["remote_config_dir"] + self.config["template_dada_header"]
+        self.cmd_pattern += " -n " + self.config["docker_config_dir"] + self.config["template_dada_header"]
         self.cmd_pattern += " -o " + self.config["soure_information"]
         self.cmd_pattern += " -p " + str(self.config["padding"])
         self.cmd_pattern += " -q " + str(self.freq)

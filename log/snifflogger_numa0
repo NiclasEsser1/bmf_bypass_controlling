@@ -1,7 +1,0 @@
-INF [20201130-08:56:28.694] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
-INF [20201130-08:56:28.839] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
-INF [20201130-09:11:51.791] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
-INF [20201130-09:11:51.946] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
-ERR [20201130-09:11:53.857] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.0.1 -p 17100Erro msg: Traceback (most recent call last):
-  File "/home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py", line 100, in <module>
-

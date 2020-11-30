@@ -41,12 +41,14 @@ for node in config.numa_list:
     node.ssh_client.upload(config.data["local_config_dir"] + config.data["template_dada_header"], config.data["remote_config_dir"] + config.data["template_dada_header"])
     node.ssh_client.open_shell()
     # Write commands executed from inside Docker into a file
-    out = node.ssh_client.execute("echo 'dada_db -k " +node.key+ " -d' > " +cmdline_file + str(node.id) + ".txt", "", "fail")
-    out = node.ssh_client.execute("echo 'numactl -m " +str(node.id)+ " dada_db -k " +node.key+ " -l -p -b " +str(config.data["dada_block_size"])+ " -n " +str(config.data["nof_dada_blocks"])+ "' >> " +cmdline_file + str(node.id) + ".txt", "", "fail")
-    out = node.ssh_client.execute("echo 'numactl -m " +str(node.id)+ " dada_dbdisk -k " +node.key+ " -D " +node.storage_dir+ " -W -d -s' >> " +cmdline_file + str(node.id) + ".txt", "", "fail")
+    out = node.ssh_client.execute("echo 'dada_db -k " +node.key+ " -d' > " +cmdline_file + str(node.node_name) + ".txt", "", "fail")
+    out = node.ssh_client.execute("echo 'numactl -m " +str(node.id)+ " dada_db -k " +node.key+ " -l -p -b " +str(config.data["dada_block_size"])+ " -n " +str(config.data["nof_dada_blocks"])+ "' >> " +cmdline_file + str(node.node_name) + ".txt", "", "fail")
+    out = node.ssh_client.execute("echo 'numactl -m " +str(node.id)+ " dada_dbdisk -k " +node.key+ " -D " +node.storage_dir+ " -W -d -s' >> " +cmdline_file + str(node.node_name) + ".txt", "", "fail")
+    print(out)
+    # out = node.ssh_client.execute("echo '"+node.cmd_pattern+"' >> " +cmdline_file + str(node.node_name) + ".txt", "", "fail")
 
     # Launching dockers on each node
-    launch_cmd = "python " + script_dir + config.data["launch_script"]["name"] + " -n " +str(node.dockername) + " -c " + cmdline_file + str(node.id) + ".txt"
+    launch_cmd = "python " + script_dir + config.data["launch_script"]["name"] + " -n " +str(node.dockername) + " -c " + cmdline_file + str(node.node_name) + ".txt"
     p1 = Popen(node.ssh_client.execute(launch_cmd, "", "failed"), shell=True,  stdin=PIPE, stdout=PIPE, stderr=PIPE)
     # node.ssh_client.close()
 
@@ -54,22 +56,20 @@ for node in config.numa_list:
 print("Wait for init...")
 time.sleep(10)
 
-time_ref = sniff_packet(config.numa_list[0])
 
 
 while raw_input("Start capture?y/n") == "y":
+    time_ref = sniff_packet(config.numa_list[0])
     for node in config.numa_list:
         node.cmd_pattern += " -f " + str(time_ref)
         # node.cmd_pattern = "dada_junkdb -k " +node.key+ " -b 8531214336 -c f -r 2432.666 "+ config.data["docker_config_dir"] + config.data["template_dada_header"]
         node.ssh_client2 = SSHConnector(host=node.host, user=USER, password=PASSWORD, gss_auth=True, gss_kex=True, logfile="log/logger_" + node.node_name)
         node.ssh_client2.connect()
         node.ssh_client2.open_shell()
-        node.ssh_client2.execute("echo '"+node.cmd_pattern+"' >> " +cmdline_file + str(node.id) + ".txt", "", "fail")
-        start_cmd = "python " + script_dir + config.data["start_script"]["name"] + " -n " +str(node.dockername) + " -c " + cmdline_file + str(node.id) + ".txt" + " -t " + config.data["remote_config_dir"] + config.data["template_dada_header"]
-        node.ssh_client2.execute(start_cmd, "", "failed")
+        node.ssh_client2.execute("echo '"+node.cmd_pattern+"' >> " +cmdline_file + str(node.node_name) + ".txt", "", "fail")
+        start_cmd = "python " + script_dir + config.data["start_script"]["name"] + " -n " +str(node.dockername) + " -c " + cmdline_file + str(node.node_name) + ".txt" + " -t " + config.data["remote_config_dir"] + config.data["template_dada_header"]
+        print(node.ssh_client2.execute(start_cmd, "", "failed"))
 
-    for node in config.numa_list:
-        node.ssh_client2.close()
 
 stop = raw_input("Enter key to stop capture...")
 for node in config.numa_list:
