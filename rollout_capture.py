@@ -54,13 +54,13 @@ for node in config.numa_list:
 print("Wait for init...")
 time.sleep(10)
 
-# time_ref = sniff_packet(config.numa_list[0])
+time_ref = sniff_packet(config.numa_list[0])
 
 
 while raw_input("Start capture?y/n") == "y":
     for node in config.numa_list:
-        # node.cmd_pattern += " -f " + str(time_ref)
-        node.cmd_pattern = "dada_junkdb -k " +node.key+ " -b 8531214336 -c f -r 2432.666 "+ config.data["docker_config_dir"] + config.data["template_dada_header"]
+        node.cmd_pattern += " -f " + str(time_ref)
+        # node.cmd_pattern = "dada_junkdb -k " +node.key+ " -b 8531214336 -c f -r 2432.666 "+ config.data["docker_config_dir"] + config.data["template_dada_header"]
         node.ssh_client2 = SSHConnector(host=node.host, user=USER, password=PASSWORD, gss_auth=True, gss_kex=True, logfile="log/logger_" + node.node_name)
         node.ssh_client2.connect()
         node.ssh_client2.open_shell()

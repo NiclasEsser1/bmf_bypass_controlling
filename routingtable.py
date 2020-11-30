@@ -313,9 +313,9 @@ class RoutingTable(object):
         shutil.copy(name, fname + ".csv")
 
 if __name__ == "__main__":
-    destinations = [['0x7cfe90c0c930',	'10.17.0.1'],
-                    ['0x7cfe90c0cc10',	'10.17.0.2'],
-                    ['0x7cfe90c0ca60',	'10.17.1.1'],
+    # destinations = [['0x7cfe90c0c930',	'10.17.0.1'],
+    #                 ['0x7cfe90c0cc10',	'10.17.0.2'],
+    destinations = [['0x7cfe90c0ca60',	'10.17.1.1'],
                     ['0x7cfe90c0cd50',	'10.17.1.2'],
                     ['0x7cfe90c0cce1',	'10.17.2.1'],
                     ['0x7cfe90c0cc20',	'10.17.2.2'],
@@ -340,12 +340,12 @@ if __name__ == "__main__":
     nbeam = 36
     nchunk_offset = 0
 
-    nchunk = 2
+    nchunk = 14
     nbeam = 1
     nchunk_offset = 0
 
     routing_table = RoutingTable(
         destinations, nbeam, nchunk, nchunk_offset, center_freq)
-    routing_table.save_csv("config/routing_table_beams2node")
+    # routing_table.save_csv("config/routing_table_beams2node")
     print(routing_table.center_freq_stream())
-    # routing_table.upload_table()
+    routing_table.upload_table()
