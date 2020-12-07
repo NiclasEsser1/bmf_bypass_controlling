@@ -27,7 +27,7 @@ OBS_OVERLAP  0                   # bytes by which neighbouring files overlap
 TELESCOPE    Effelsberg        # telescope name
 INSTRUMENT   PAF-BMF           # instrument name
 RECEIVER     PAF               # Frontend receiver
-FREQ         1337             # centre frequency in MHz
+FREQ         1337              # centre frequency in MHz
 BW           336               # bandwidth of in MHz (-ve lower sb)
 TSAMP        0.84375           # sampling interval in microseconds
 

@@ -179,6 +179,7 @@ class SSHConnector():
                         password=self.password,
                         timeout=self.timeout)
                 except Exception as e:
+                    self.log.error("Could not connect via SSH: " + str(e.__class__) + ": " + str(e))
                     raise SSHConnectorError("Could not connect via SSH: " + str(e.__class__) + ": " + str(e))
             # Try to connect with gssapi and Kerberos ticket authentication
             else:
@@ -192,9 +193,11 @@ class SSHConnector():
                         gss_auth=self.gss_auth,
                         gss_kex=self.gss_kex)
                 except Exception as e:
+                    self.log.error("Could not connect via Kerberos; Error: " + str(e.__class__) + ": " + str(e))
                     raise SSHConnectorError("Could not connect via Kerberos; Error: " + str(e.__class__) + ": " + str(e))
             print("Connected!")
         except Exception as e:
+                self.log.error("connect() failed with: "  + str(e.__class__) + ": " + str(e))
                 raise SSHConnectorError("connect() failed with: "  + str(e.__class__) + ": " + str(e))
 
         self.sftp = 0
@@ -217,6 +220,7 @@ class SSHConnector():
         try:
             os.mkdir(dst_dir)
         except Exception as e:
+            self.log.error("download() failed with:"  + str(e.__class__) + ": " + str(e))
             raise SSHConnectorError("download() failed with:"  + str(e.__class__) + ": " + str(e))
         self.sftp.get(src_file, dst_file)
 
@@ -239,6 +243,7 @@ class SSHConnector():
         try:
             self.shell = self.client.invoke_shell()
         except Exception as e:
+            self.log.error("open_shell() failed with:"  + str(e.__class__) + ": " + str(e))
             raise SSHConnectorError("open_shell() failed with:"  + str(e.__class__) + ": " + str(e))
         self.shell_active = True
 
@@ -246,6 +251,7 @@ class SSHConnector():
         try:
             self.sftp = self.client.open_sftp()
         except Exception as e:
+            self.log.error("open_sftp() failed with:"  + str(e.__class__) + ": " + str(e))
             raise SSHConnectorError("open_sftp() failed with:"  + str(e.__class__) + ": " + str(e))
         self.sftp_active = True
     def execute(self, cmd, expected_succes_string, expected_fail_string):
@@ -265,7 +271,8 @@ class SSHConnector():
                 return output
             if output.find(expected_fail_string) != -1:
                 self.log.error("execute() failed with command: " + cmd + "Erro msg: " + output)
-                raise SSHConnectorError("execute() failed with command: " + cmd)
+                return "failed"
+                # raise SSHConnectorError("execute() failed with command: " + cmd)
 
 
             # time.sleep(1)

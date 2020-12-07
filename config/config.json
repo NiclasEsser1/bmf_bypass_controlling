@@ -1,5 +1,5 @@
 {
-  "routing_table" : "routing_table_beams2node.csv",
+  "routing_table" : "routing_table_mid_band.csv",
   "dada_key_odd" : "dada",
   "dada_key_even" : "dadc",
   "packet_start" : 0,
@@ -22,6 +22,7 @@
   "template_dada_header" : "header_dada.txt",
   "soure_information" : "UNKNOWN_00:00:00.00_00:00:00.00",
   "padding" : 0,
+  "dockername" : "capture_bypassed_bmf_",
   "script_dir" : "/home/pulsar/nesser/Projects/phased-array-feed/script/",
   "launch_script" : {
       "name":"launch_capture.py",
@@ -39,7 +40,7 @@
       "name" : "time_ref.py",
       "expected_start" : "SOS",
       "expected_end" : "EOS",
-      "failed" : "Traceback"
+      "failed" : "timeout"
   },
   "start_script" : {
       "name" : "start_capture.py",

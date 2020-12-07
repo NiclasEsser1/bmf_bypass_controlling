@@ -15,7 +15,7 @@ log = logging.getLogger("mpikat.paf_routingtable")
 Stream2Beams, Stream1Beam = (0, 1)
 
 BASE_PORT = 17100
-CENTER_FREQ = [950.5, 1340.5, 1550.5]
+CENTER_FREQ = [950, 1340, 1550]
 NCHUNK_PER_BEAM = 48  # Number of frequency chunks of a beam with full bandwidth
 BW_PER_CHUNK = 7  # MHz
 
@@ -195,12 +195,17 @@ class RoutingTable(object):
             self.center_freq_band = center_freq_band
         # Check the required frequency chunks
         # The start chunk before adding offset
-        start_chunk = int(math.floor((NCHUNK_PER_BEAM - self.nchunk) / 2.0))
-        self.first_chunk = start_chunk + self.nchunk_offset
-        self.last_chunk = start_chunk + self.nchunk + self.nchunk_offset
-        if ((self.first_chunk < 0) or (self.last_chunk) > NCHUNK_PER_BEAM):
-            raise RoutingTableError(
-                "Required frequency chunks are out of range")
+
+        if self.config == BYPASSBMFCONFIG:
+            self.first_chunk = self.nchunk_offset
+            self.last_chunk = self.nchunk_offset + self.nchunk
+        else:
+            start_chunk = int(math.floor((NCHUNK_PER_BEAM - self.nchunk) / 2.0))
+            self.first_chunk = start_chunk + self.nchunk_offset
+            self.last_chunk = start_chunk + self.nchunk + self.nchunk_offset
+            if ((self.first_chunk < 0) or (self.last_chunk) > NCHUNK_PER_BEAM):
+                raise RoutingTableError(
+                    "Required frequency chunks are out of range")
         self.generate_table()
         log.debug("Table generated with the name {}".format(self.fname))
 
@@ -296,7 +301,7 @@ class RoutingTable(object):
             "cd {}/Code/Components/OSL/scripts/ade".format(TOSSIX_SCRIPT_ROOT))
 
         # Configure metadata and streaming
-        tossix.control("python osl_a_metadata_streaming.py")
+        # tossix.control("python osl_a_metadata_streaming.py")
         tossix.control(
             "python osl_a_abf_config_stream.py --param 'ade_bmf.stream10G.streamSetup={}'".format(self.fname.split("/")[-1]))
 
@@ -332,20 +337,35 @@ if __name__ == "__main__":
                     ['0x248a07e25a50',	'10.17.8.1'],
                     ['0x248a07e1ac50',	'10.17.8.2']]
 
-    center_freq = 1340.5
-    nchunk = 48
-    nbeam = 18
+    center_freq = 1340
+    # nchunk = 48
+    # nbeam = 18
+    #
+    # nchunk = 33
+    # nbeam = 36
+    # nchunk_offset = 0
 
-    nchunk = 33
-    nbeam = 36
-    nchunk_offset = 0
+    # Low band
+    # nchunk = 16
+    # nbeam = 1
+    # nchunk_offset = 0
 
-    nchunk = 14
+    # Mid band
+    nchunk = 16
+    nbeam = 1
+    nchunk_offset = 8
+
+    # Top band
+    nchunk = 16
+    nbeam = 1
+    nchunk_offset = 24
+
+    nchunk = 1
     nbeam = 1
     nchunk_offset = 0
 
     routing_table = RoutingTable(
         destinations, nbeam, nchunk, nchunk_offset, center_freq)
-    routing_table.save_csv("config/routing_table_beams2node")
+    routing_table.save_csv("config/routing_table_test")
     print(routing_table.center_freq_stream())
-    routing_table.upload_table()
+    # routing_table.upload_table()

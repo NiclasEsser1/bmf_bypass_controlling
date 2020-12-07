@@ -1,0 +1,2080 @@
+INF [20201202-13:03:16.695] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:16.829] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:18.903] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17100Erro msg:     print("timeout " + e)
+TypeError: cannot concatenate 'str' and 'timeout' objects
+
+INF [20201202-13:03:18.953] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:18.953] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:19.085] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:19.085] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:20.778] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:20.778] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201202-13:03:20.828] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:20.828] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:20.828] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:20.962] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:20.962] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:20.962] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:22.656] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:03:22.656] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:03:22.656] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+TypeError: 
+INF [20201202-13:03:22.706] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:22.706] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:22.706] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:22.706] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:22.840] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:22.840] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:22.840] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:22.840] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:24.535] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:24.535] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:24.535] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:24.535] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201202-13:03:24.585] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:24.585] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:24.585] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:24.585] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:24.739] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:24.739] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:24.739] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:24.739] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:27.217] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:27.217] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:27.217] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:27.217] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201202-13:03:27.299] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:27.299] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:27.299] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:27.299] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:27.430] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:27.430] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:27.430] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:27.430] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:29.129] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:29.129] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:29.129] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:29.129] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201202-13:03:29.178] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:29.178] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:29.178] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:29.178] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:29.313] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:29.313] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:29.313] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:29.313] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:31.011] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:03:31.011] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:03:31.011] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:03:31.011] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+TypeError: 
+INF [20201202-13:03:31.061] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:31.061] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:31.061] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:31.061] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:31.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:31.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:31.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:31.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:33.274] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:33.274] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:33.274] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:33.274] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201202-13:03:33.332] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:33.332] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:33.332] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:33.332] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:33.503] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:33.503] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:33.503] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:33.503] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:35.215] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:35.215] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:35.215] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:35.215] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201202-13:03:35.273] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:35.273] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:35.273] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:35.273] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:35.445] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:35.445] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:35.445] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:35.445] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:37.145] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:37.145] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:37.145] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:37.145] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201202-13:03:37.195] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:37.195] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:37.195] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:37.195] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:37.329] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:37.329] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:37.329] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:37.329] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:39.467] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+TypeError
+ERR [20201202-13:03:39.467] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+TypeError
+ERR [20201202-13:03:39.467] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+TypeError
+ERR [20201202-13:03:39.467] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+TypeError
+INF [20201202-13:03:39.550] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:39.550] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:39.550] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:39.550] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:03:39.682] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:39.682] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:39.682] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:03:39.682] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:03:41.384] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:41.384] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:41.384] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:03:41.384] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:08.310] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:08.446] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:10.594] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:10.677] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:10.677] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:10.809] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:10.809] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:12.512] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:12.512] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:12.562] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:12.562] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:12.562] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:12.712] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:12.712] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:12.712] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:14.854] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:14.854] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:14.854] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:14.936] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:14.936] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:14.936] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:14.936] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:15.070] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:15.070] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:15.070] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:15.070] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:17.181] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:10:17.181] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:10:17.181] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201202-13:10:17.181] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+TypeError: 
+INF [20201202-13:10:17.262] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:17.262] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:17.262] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:17.262] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:17.411] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:17.411] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:17.411] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:17.411] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:19.664] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:19.664] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:19.664] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:19.664] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:19.747] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:19.747] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:19.747] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:19.747] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:19.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:19.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:19.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:19.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:21.578] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:21.578] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:21.578] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:21.578] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:21.628] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:21.628] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:21.628] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:21.628] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:21.760] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:21.760] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:21.760] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:21.760] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:23.452] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:23.452] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:23.452] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:23.452] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:23.502] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:23.502] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:23.502] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:23.502] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:23.633] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:23.633] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:23.633] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:23.633] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:25.331] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:25.331] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:25.331] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:25.331] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:25.381] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:25.381] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:25.381] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:25.381] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:25.514] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:25.514] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:25.514] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:25.514] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:27.211] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:27.211] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:27.211] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:27.211] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:27.260] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:27.260] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:27.260] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:27.260] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:27.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:27.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:27.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:27.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:29.085] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:29.085] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:29.085] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:29.085] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:29.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:29.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:29.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:29.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:29.265] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:29.265] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:29.265] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:29.265] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:30.965] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:30.965] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:30.965] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:30.965] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201202-13:10:31.015] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:31.015] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:31.015] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:31.015] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-13:10:31.144] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:31.144] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:31.144] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-13:10:31.144] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201202-13:10:32.846] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:32.846] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:32.846] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201202-13:10:32.846] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201202-14:29:05.824] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:05.955] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:06.653] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:06.703] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:06.703] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:06.859] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:06.859] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:07.582] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:07.582] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:07.632] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:07.632] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:07.632] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:07.768] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:07.768] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:07.768] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:08.491] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:08.491] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:08.491] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:08.553] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:08.553] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:08.553] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:08.553] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:08.759] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:08.759] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:08.759] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:08.759] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:09.484] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:09.484] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:09.484] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:09.484] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:09.541] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:09.541] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:09.541] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:09.541] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:09.730] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:09.730] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:09.730] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:09.730] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:10.548] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:10.548] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:10.548] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:10.548] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:10.637] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:10.637] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:10.637] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:10.637] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:10.809] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:10.809] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:10.809] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:10.809] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:11.511] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:11.511] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:11.511] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:11.511] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:11.568] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:11.568] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:11.568] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:11.568] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:11.745] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:11.745] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:11.745] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:11.745] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:12.475] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:12.475] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:12.475] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:12.475] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:12.563] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:12.563] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:12.563] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:12.563] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:12.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:12.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:12.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:12.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:13.430] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:13.430] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:13.430] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:13.430] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:13.487] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:13.487] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:13.487] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:13.487] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:13.660] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:13.660] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:13.660] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:13.660] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:14.355] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:14.355] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:14.355] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:14.355] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:14.405] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:14.405] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:14.405] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:14.405] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:14.533] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:14.533] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:14.533] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:14.533] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:15.235] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:15.235] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:15.235] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:15.235] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:15.292] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:15.292] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:15.292] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:15.292] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:15.464] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:15.464] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:15.464] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:15.464] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:16.158] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:16.158] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:16.158] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:16.158] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:16.215] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:16.215] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:16.215] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:16.215] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-14:29:16.387] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:16.387] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:16.387] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:16.387] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-14:29:17.517] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:17.517] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:17.517] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-14:29:17.517] thr=1-3d paramiko: SOS18444_13357801_0EOS
+
+INF [20201202-15:34:43.687] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:43.838] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:45.239] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:45.320] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:45.320] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:45.473] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:45.473] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:46.200] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:46.200] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:46.262] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:46.262] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:46.262] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:46.469] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:46.469] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:46.469] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:47.197] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:47.197] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:47.197] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:47.278] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:47.278] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:47.278] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:47.278] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:47.416] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:47.416] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:47.416] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:47.416] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:48.682] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:48.682] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:48.682] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:48.682] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:48.740] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:48.740] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:48.740] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:48.740] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:48.928] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:48.928] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:48.928] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:48.928] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:49.737] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:49.737] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:49.737] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:49.737] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:49.827] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:49.827] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:49.827] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:49.827] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:50.002] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:50.002] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:50.002] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:50.002] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:51.139] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:51.139] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:51.139] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:51.139] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:51.222] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:51.222] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:51.222] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:51.222] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:51.354] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:51.354] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:51.354] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:51.354] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:52.054] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:52.054] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:52.054] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:52.054] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:52.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:52.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:52.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:52.136] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:52.276] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:52.276] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:52.276] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:52.276] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:52.999] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:52.999] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:52.999] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:52.999] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:53.057] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:53.057] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:53.057] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:53.057] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:53.228] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:53.228] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:53.228] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:53.228] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:54.347] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:54.347] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:54.347] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:54.347] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:54.404] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:54.404] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:54.404] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:54.404] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:54.582] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:54.582] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:54.582] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:54.582] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:55.455] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:55.455] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:55.455] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:55.455] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:55.512] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:55.512] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:55.512] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:55.512] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:55.683] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:55.683] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:55.683] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:55.683] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:56.382] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:56.382] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:56.382] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:56.382] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:56.464] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:56.464] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:56.464] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:56.464] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201202-15:34:56.597] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:56.597] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:56.597] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:56.597] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201202-15:34:57.305] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:57.305] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:57.305] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201202-15:34:57.305] thr=1-3d paramiko: SOS18444_13361743_0EOS
+
+INF [20201203-08:04:50.851] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:51.001] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:52.412] thr=1-3d paramiko: SOS18444_13421180_0EOS
+INF [20201203-08:04:52.494] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:52.494] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:52.625] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:52.625] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:53.332] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:53.332] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:53.381] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:53.381] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:53.381] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:53.514] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:53.514] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:53.514] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:54.208] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:54.208] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:54.208] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:54.257] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:54.257] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:54.257] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:54.257] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:54.403] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:54.403] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:54.403] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:54.403] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:55.100] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:55.100] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:55.100] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:55.100] thr=1-3d paramiko: SOS18444_13421180_0EOS
+
+INF [20201203-08:04:55.150] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:55.150] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:55.150] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:55.150] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:55.286] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:55.286] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:55.286] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:55.286] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:04:57.117] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201203-08:04:57.117] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201203-08:04:57.117] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+TypeError: 
+ERR [20201203-08:04:57.117] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+TypeError: 
+INF [20201203-08:04:57.166] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:57.166] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:57.166] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:57.166] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:57.301] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:57.301] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:57.301] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:57.301] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:04:59.024] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:04:59.024] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:04:59.024] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:04:59.024] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-08:04:59.074] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:59.074] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:59.074] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:59.074] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:04:59.205] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:59.205] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:59.205] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:04:59.205] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:05:00.897] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:00.897] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:00.897] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:00.897] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-08:05:00.947] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:00.947] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:00.947] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:00.947] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:01.077] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:01.077] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:01.077] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:01.077] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:05:02.775] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:02.775] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:02.775] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:02.775] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-08:05:02.825] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:02.825] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:02.825] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:02.825] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:02.959] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:02.959] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:02.959] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:02.959] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:05:04.695] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:04.695] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:04.695] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:04.695] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-08:05:04.745] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:04.745] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:04.745] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:04.745] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:04.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:04.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:04.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:04.874] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:05:06.575] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:06.575] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:06.575] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:06.575] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-08:05:06.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:06.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:06.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:06.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:06.754] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:06.754] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:06.754] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:06.754] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:05:08.456] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:08.456] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:08.456] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:08.456] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-08:05:08.507] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:08.507] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:08.507] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:08.507] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:05:08.638] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:08.638] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:08.638] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:05:08.638] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:05:10.335] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:10.335] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:10.335] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:05:10.335] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-08:10:48.160] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:48.295] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:10:50.021] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-08:10:50.072] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:50.072] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:50.216] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:50.216] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:10:51.938] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:51.938] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-08:10:51.988] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:51.988] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:51.988] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:52.124] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:52.124] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:52.124] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:10:54.083] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:54.083] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:54.083] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-08:10:54.133] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:54.133] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:54.133] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:54.133] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:54.266] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:54.266] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:54.266] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:54.266] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:10:55.964] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:55.964] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:55.964] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:55.964] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-08:10:56.014] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:56.014] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:56.014] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:56.014] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:56.162] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:56.162] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:56.162] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:56.162] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:10:58.435] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:58.435] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:58.435] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:10:58.435] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-08:10:58.518] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:58.518] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:58.518] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:58.518] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:10:58.654] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:58.654] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:58.654] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:10:58.654] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:11:00.397] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:00.397] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:00.397] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:00.397] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-08:11:00.447] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:00.447] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:00.447] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:00.447] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:00.578] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:00.578] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:00.578] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:00.578] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:11:02.732] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:02.732] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:02.732] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:02.732] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-08:11:02.814] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:02.814] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:02.814] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:02.814] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:02.946] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:02.946] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:02.946] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:02.946] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:11:04.650] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:04.650] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:04.650] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:04.650] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-08:11:04.700] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:04.700] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:04.700] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:04.700] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:04.831] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:04.831] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:04.831] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:04.831] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:11:06.529] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:06.529] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:06.529] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:06.529] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-08:11:06.579] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:06.579] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:06.579] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:06.579] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:06.709] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:06.709] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:06.709] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:06.709] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:11:08.408] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:08.408] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:08.408] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:08.408] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-08:11:08.458] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:08.458] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:08.458] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:08.458] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:08.590] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:08.590] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:08.590] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:08.590] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:11:10.288] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:10.288] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:10.288] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:10.288] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-08:11:10.339] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:10.339] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:10.339] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:10.339] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:11:10.468] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:10.468] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:10.468] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:11:10.468] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-08:11:12.172] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:12.172] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:12.172] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-08:11:12.172] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-08:20:14.613] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:14.747] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:15.484] thr=1-3d paramiko: SOS18444_13422087_0EOS
+
+INF [20201203-08:20:15.533] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:15.533] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:15.663] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:15.663] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:16.370] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:16.370] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:16.419] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:16.419] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:16.419] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:16.554] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:16.554] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:16.554] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:17.947] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:17.947] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:17.947] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:18.028] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:18.028] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:18.028] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:18.028] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:18.160] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:18.160] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:18.160] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:18.160] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:19.545] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:19.545] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:19.545] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:19.545] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:19.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:19.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:19.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:19.626] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:19.763] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:19.763] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:19.763] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:19.763] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:20.841] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:20.841] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:20.841] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:20.841] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:20.922] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:20.922] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:20.922] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:20.922] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:21.055] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:21.055] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:21.055] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:21.055] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:21.754] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:21.754] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:21.754] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:21.754] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:21.804] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:21.804] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:21.804] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:21.804] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:21.939] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:21.939] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:21.939] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:21.939] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:22.705] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:22.705] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:22.705] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:22.705] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:22.754] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:22.754] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:22.754] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:22.754] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:22.881] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:22.881] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:22.881] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:22.881] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:23.629] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:23.629] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:23.629] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:23.629] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:23.678] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:23.678] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:23.678] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:23.678] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:23.810] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:23.810] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:23.810] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:23.810] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:24.508] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:24.508] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:24.508] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:24.508] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:24.590] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:24.590] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:24.590] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:24.590] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:24.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:24.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:24.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:24.735] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:25.432] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:25.432] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:25.432] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:25.432] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:25.482] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:25.482] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:25.482] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:25.482] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:25.613] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:25.613] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:25.613] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:25.613] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:26.313] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:26.313] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:26.313] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:26.313] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:26.362] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:26.362] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:26.362] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:26.362] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-08:20:26.494] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:26.494] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:26.494] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:26.494] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-08:20:27.194] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:27.194] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:27.194] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-08:20:27.194] thr=1-3d paramiko: SOS18444_13422114_0EOS
+
+INF [20201203-21:47:13.418] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:13.550] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:14.314] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:14.396] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:14.396] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:14.528] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:14.528] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:15.221] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:15.221] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:15.270] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:15.270] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:15.270] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:15.419] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:15.419] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:15.419] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:16.125] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:16.125] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:16.125] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:16.174] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:16.174] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:16.174] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:16.174] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:16.323] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:16.323] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:16.323] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:16.323] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:17.709] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:17.709] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:17.709] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:17.709] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:17.792] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:17.792] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:17.792] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:17.792] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:17.924] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:17.924] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:17.924] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:17.924] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-21:47:20.186] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:20.186] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:20.186] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:20.186] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-21:47:20.269] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:20.269] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:20.269] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:20.269] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:20.400] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:20.400] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:20.400] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:20.400] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-21:47:22.533] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:22.533] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:22.533] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:22.533] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-21:47:22.616] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:22.616] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:22.616] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:22.616] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:22.748] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:22.748] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:22.748] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:22.748] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-21:47:24.527] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:24.527] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:24.527] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:24.527] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-21:47:24.577] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:24.577] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:24.577] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:24.577] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:24.713] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:24.713] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:24.713] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:24.713] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-21:47:26.763] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:26.763] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:26.763] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-21:47:26.763] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.8.1 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-21:47:26.813] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:26.813] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:26.813] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:26.813] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:26.942] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:26.942] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:26.942] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:26.942] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:27.737] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:27.737] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:27.737] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:27.737] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:27.786] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:27.786] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:27.786] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:27.786] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:27.916] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:27.916] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:27.916] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:27.916] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:28.620] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:28.620] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:28.620] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:28.620] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:28.670] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:28.670] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:28.670] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:28.670] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:28.798] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:28.798] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:28.798] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:28.798] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:29.506] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:29.506] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:29.506] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:29.506] thr=1-3d paramiko: SOS18444_13470549_0EOS
+
+INF [20201203-21:47:29.556] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:29.556] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:29.556] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:29.556] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-21:47:29.687] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:29.687] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:29.687] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:29.687] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-21:47:30.487] thr=1-3d paramiko: SOS18444_13470576_0EOS
+
+INF [20201203-21:47:30.487] thr=1-3d paramiko: SOS18444_13470576_0EOS
+
+INF [20201203-21:47:30.487] thr=1-3d paramiko: SOS18444_13470576_0EOS
+
+INF [20201203-21:47:30.487] thr=1-3d paramiko: SOS18444_13470576_0EOS
+
+INF [20201203-22:05:36.335] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:36.472] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:05:38.196] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-22:05:38.247] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:38.247] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:38.380] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:38.380] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:05:40.078] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:05:40.078] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-22:05:40.129] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:40.129] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:40.129] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:40.266] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:40.266] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:40.266] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:05:42.004] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:05:42.004] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:05:42.004] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-22:05:42.054] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:42.054] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:42.054] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:42.054] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:42.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:42.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:42.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:42.192] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:05:43.920] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:05:43.920] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:05:43.920] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:05:43.920] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-22:05:43.978] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:43.978] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:43.978] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:43.978] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:44.170] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:44.170] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:44.170] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:44.170] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:44.983] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:44.983] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:44.983] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:44.983] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:45.065] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:45.065] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:45.065] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:45.065] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:45.198] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:45.198] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:45.198] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:45.198] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:45.894] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:45.894] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:45.894] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:45.894] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:45.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:45.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:45.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:45.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:46.127] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:46.127] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:46.127] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:46.127] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:46.854] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:46.854] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:46.854] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:46.854] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:46.911] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:46.911] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:46.911] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:46.911] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:47.091] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:47.091] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:47.091] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:47.091] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:47.830] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:47.830] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:47.830] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:47.830] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:47.919] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:47.919] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:47.919] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:47.919] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:48.107] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:48.107] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:48.107] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:48.107] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:48.829] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:48.829] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:48.829] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:48.829] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:48.878] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:48.878] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:48.878] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:48.878] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:49.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:49.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:49.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:49.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:50.176] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:50.176] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:50.176] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:50.176] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:50.266] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:50.266] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:50.266] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:50.266] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:50.440] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:50.440] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:50.440] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:50.440] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:51.137] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:51.137] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:51.137] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:51.137] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:51.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:51.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:51.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:51.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:05:51.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:51.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:51.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:51.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:05:52.019] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:52.019] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:52.019] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:05:52.019] thr=1-3d paramiko: SOS18444_13471658_0EOS
+
+INF [20201203-22:08:15.522] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:15.656] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:08:17.383] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-22:08:17.432] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:17.432] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:17.566] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:17.566] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:08:19.261] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+TypeError
+ERR [20201203-22:08:19.261] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+TypeError
+INF [20201203-22:08:19.311] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:19.311] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:19.311] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:19.464] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:19.464] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:19.464] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:08:21.191] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:08:21.191] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:08:21.191] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-22:08:21.281] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:21.281] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:21.281] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:21.281] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:21.454] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:21.454] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:21.454] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:21.454] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:08:23.485] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:08:23.485] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:08:23.485] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:08:23.485] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17103Erro msg:     print("timeout " + e)
+
+INF [20201203-22:08:23.543] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:23.543] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:23.543] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:23.543] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:23.721] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:23.721] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:23.721] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:23.721] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:24.532] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:24.532] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:24.532] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:24.532] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:24.582] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:24.582] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:24.582] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:24.582] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:24.714] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:24.714] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:24.714] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:24.714] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:25.844] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:25.844] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:25.844] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:25.844] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:25.926] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:25.926] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:25.926] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:25.926] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:26.062] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:26.062] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:26.062] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:26.062] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:26.786] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:26.786] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:26.786] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:26.786] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:26.843] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:26.843] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:26.843] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:26.843] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:27.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:27.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:27.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:27.011] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:27.715] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:27.715] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:27.715] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:27.715] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:27.765] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:27.765] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:27.765] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:27.765] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:27.897] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:27.897] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:27.897] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:27.897] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:28.596] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:28.596] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:28.596] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:28.596] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:28.646] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:28.646] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:28.646] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:28.646] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:28.779] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:28.779] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:28.779] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:28.779] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:29.832] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:29.832] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:29.832] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:29.832] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:29.882] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:29.882] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:29.882] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:29.882] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:30.016] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:30.016] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:30.016] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:30.016] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:30.744] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:30.744] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:30.744] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:30.744] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:30.794] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:30.794] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:30.794] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:30.794] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:08:30.925] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:30.925] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:30.925] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:30.925] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:08:31.622] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:31.622] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:31.622] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:08:31.622] thr=1-3d paramiko: SOS18444_13471820_0EOS
+
+INF [20201203-22:16:22.118] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:22.254] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:16:23.986] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17100Erro msg:     print("timeout " + e)
+
+INF [20201203-22:16:24.044] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:24.044] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:24.221] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:24.221] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:16:25.949] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:16:25.949] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17101Erro msg:     print("timeout " + e)
+
+INF [20201203-22:16:26.000] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:26.000] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:26.000] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:26.137] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:26.137] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:26.137] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+ERR [20201203-22:16:27.860] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:16:27.860] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+ERR [20201203-22:16:27.860] thr=1-3d paramiko: execute() failed with command: python /home/pulsar/nesser/Projects/phased-array-feed/script/time_ref.py -i 10.17.7.2 -p 17102Erro msg:     print("timeout " + e)
+
+INF [20201203-22:16:27.910] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:27.910] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:27.910] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:27.910] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:28.049] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:28.049] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:28.049] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:28.049] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:29.425] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:29.425] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:29.425] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:29.425] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:29.476] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:29.476] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:29.476] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:29.476] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:29.626] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:29.626] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:29.626] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:29.626] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:30.565] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:30.565] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:30.565] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:30.565] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:30.654] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:30.654] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:30.654] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:30.654] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:30.826] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:30.826] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:30.826] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:30.826] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:31.525] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:31.525] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:31.525] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:31.525] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:31.574] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:31.574] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:31.574] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:31.574] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:31.708] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:31.708] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:31.708] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:31.708] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:32.405] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:32.405] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:32.405] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:32.405] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:32.455] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:32.455] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:32.455] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:32.455] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:32.588] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:32.588] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:32.588] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:32.588] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:33.287] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:33.287] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:33.287] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:33.287] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:33.345] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:33.345] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:33.345] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:33.345] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:33.522] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:33.522] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:33.522] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:33.522] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:34.252] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:34.252] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:34.252] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:34.252] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:34.302] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:34.302] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:34.302] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:34.302] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:34.434] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:34.434] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:34.434] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:34.434] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:35.137] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:35.137] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:35.137] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:35.137] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:35.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:35.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:35.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:35.187] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:35.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:35.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:35.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:35.319] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:36.014] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:36.014] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:36.014] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:36.014] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:36.071] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:36.071] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:36.071] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:36.071] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:16:36.246] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:36.246] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:36.246] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:36.246] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:16:36.979] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:36.979] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:36.979] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:16:36.979] thr=1-3d paramiko: SOS18444_13472306_0EOS
+
+INF [20201203-22:29:42.468] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:42.602] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:43.297] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:43.347] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:43.347] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:43.481] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:43.481] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:44.206] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:44.206] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:44.288] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:44.288] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:44.288] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:44.421] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:44.421] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:44.421] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:45.122] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:45.122] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:45.122] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:45.184] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:45.184] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:45.184] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:45.184] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:45.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:45.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:45.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:45.391] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:46.120] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:46.120] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:46.120] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:46.120] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:46.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:46.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:46.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:46.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:46.318] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:46.318] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:46.318] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:46.318] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:47.292] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:47.292] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:47.292] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:47.292] thr=1-3d paramiko: SOS18444_13473089_0EOS
+
+INF [20201203-22:29:47.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:47.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:47.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:47.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:29:47.471] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:47.471] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:47.471] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:29:47.471] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:11.039] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:11.174] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:11.900] thr=1-3d paramiko: SOS18444_13473413_0EOS
+
+INF [20201203-22:35:11.949] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:11.949] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:12.081] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:12.081] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:12.775] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:12.775] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:12.825] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:12.825] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:12.825] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:12.974] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:12.974] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:12.974] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:13.667] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:13.667] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:13.667] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:13.716] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:13.716] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:13.716] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:13.716] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:13.849] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:13.849] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:13.849] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:13.849] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:14.545] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:14.545] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:14.545] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:14.545] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:14.603] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:14.603] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:14.603] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:14.603] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:14.777] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:14.777] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:14.777] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:14.777] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:15.602] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:15.602] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:15.602] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:15.602] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:15.652] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:15.652] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:15.652] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:15.652] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:15.782] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:15.782] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:15.782] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:15.782] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:16.482] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:16.482] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:16.482] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:16.482] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:16.539] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:16.539] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:16.539] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:16.539] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:16.710] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:16.710] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:16.710] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:16.710] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:17.862] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:17.862] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:17.862] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:17.862] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:17.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:17.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:17.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:17.951] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:18.126] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:18.126] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:18.126] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:18.126] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:18.916] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:18.916] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:18.916] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:18.916] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:18.966] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:18.966] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:18.966] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:18.966] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:19.116] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:19.116] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:19.116] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:19.116] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:20.259] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:20.259] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:20.259] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:20.259] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:20.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:20.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:20.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:20.341] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:20.474] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:20.474] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:20.474] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:20.474] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:21.209] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:21.209] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:21.209] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:21.209] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:21.259] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:21.259] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:21.259] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:21.259] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:21.394] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:21.394] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:21.394] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:21.394] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:22.120] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:22.120] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:22.120] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:22.120] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:22.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:22.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:22.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:22.170] thr=1-3d paramiko.transport: Connected (version 2.0, client OpenSSH_7.9p1)
+INF [20201203-22:35:22.300] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:22.300] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:22.300] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:22.300] thr=1-3d paramiko.transport: Authentication (gssapi-with-mic) successful!
+INF [20201203-22:35:22.999] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:22.999] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:22.999] thr=1-3d paramiko: SOS18444_13473440_0EOS
+
+INF [20201203-22:35:22.999] thr=1-3d paramiko: SOS18444_13473440_0EOS
+

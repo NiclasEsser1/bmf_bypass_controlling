@@ -28,9 +28,9 @@ inet = {
     "10.17.6.1" : "pacifix6",
     "10.17.6.2" : "pacifix6",
     "10.17.7.1" : "pacifix7",
-    "10.17.7.1" : "pacifix7",
+    "10.17.7.2" : "pacifix7",
     "10.17.8.1" : "pacifix8",
-    "10.17.8.1" : "pacifix8"
+    "10.17.8.2" : "pacifix8"
 }
 
 # Used for test purposes on edd01
@@ -100,7 +100,8 @@ class Config:
                     self.numa_dict[numa_id]["beams"].append([beamid,self.rt[key_out]["PORT"+str(beamid)]])
                     self.numa_dict[numa_id]["bandid"] = self.rt[key_out]["BANDID"]
         # print(self.numa_dict)
-
+        f = open('config/parsed_numa_config.json', 'w')
+        json.dump(self.numa_dict, f, indent=4)
         # construct command line pattern for argument 'c' of capture_main program (ip_port_expectedbeams_actualbeams_cpu)
         self.numa_list = []
         for idx, key in enumerate(self.numa_dict.keys()):
@@ -111,7 +112,7 @@ class NumaNode:
     def __init__(self, id, node_name, config, dictionary):
         self.id = id%2
         self.node_name = node_name
-        self.dockername = "capture_bypassed_bmf_"+self.node_name
+        self.dockername = config["dockername"]+self.node_name
         self.config = config
         self.mac = dictionary["mac"]
         self.ip = dictionary["ip"]
