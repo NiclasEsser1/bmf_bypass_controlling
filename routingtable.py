@@ -33,11 +33,11 @@ CONFIG1BEAM = {"nbeam":           18,  # Expected number from configuration, the
 # Added by Niclas Esser
 # BYPASSBMFCONFIG is a dictionary that allows to bypass 36 elements as "beams" to the GPU backend
 # It is used to test beamforming on the GPU backend instead of using the BMF stage.
-BYPASSBMFCONFIG = {"nbeam":           36,  # Expected number fro m configuration, the real number depends on the number of alive NiCs
+BYPASSBMFCONFIG = {"nbeam": 36,  # Expected number fro m configuration, the real number depends on the number of alive NiCs
                "nbeam_per_nic":   36,
                "nbeams_per_port":  9,
                "nchunk_per_port": 1,
-               "nchunk_total": 18
+               "nchunk_total": 2
                }
 
 PARAMIKO_BUFSZ = 102400
@@ -63,6 +63,7 @@ class RemoteAccess(object):
         self.password = password
 
         self.ssh_client = paramiko.SSHClient()
+        # self.ssh_client.load_system_host_keys()
         self.ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         self.ssh_client.connect(
             hostname=ip, username=username, password=password)
@@ -351,21 +352,17 @@ if __name__ == "__main__":
     # nchunk_offset = 0
 
     # Mid band
-    nchunk = 16
+    nchunk = 2
     nbeam = 1
     nchunk_offset = 8
 
     # Top band
-    nchunk = 16
-    nbeam = 1
-    nchunk_offset = 24
-
-    nchunk = 1
-    nbeam = 1
-    nchunk_offset = 0
+    # nchunk = 16
+    # nbeam = 1
+    # nchunk_offset = 24
 
     routing_table = RoutingTable(
         destinations, nbeam, nchunk, nchunk_offset, center_freq)
     routing_table.save_csv("config/routing_table_test")
     print(routing_table.center_freq_stream())
-    # routing_table.upload_table()
+    routing_table.upload_table()

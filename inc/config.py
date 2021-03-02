@@ -137,9 +137,9 @@ class NumaNode:
             self.cmd_pattern += str(self.ports[idx]) + "_"
             self.cmd_pattern += str(np.count_nonzero(self.beam_port[:,1] == self.ports[idx])) + "_"
             self.cmd_pattern += str(np.count_nonzero(self.beam_port[:,1] == self.ports[idx])) + "_"
-            self.cmd_pattern += str(idx+2) + " "
+            self.cmd_pattern += str(idx+2+self.start_cpu) + " "
         self.cmd_pattern += " -e " + str(self.config["center_freq"])
-        self.cmd_pattern += " -g " + self.config["log_file"]
+        self.cmd_pattern += " -g " + self.config["log_dir"]
         self.cmd_pattern += " -i " + str(self.start_cpu)
         self.cmd_pattern += " -j " + str(self.config["capture_control"]) + "_" + str(self.start_cpu + 1)
         self.cmd_pattern += " -k " + str(self.config["bind_cpu"])

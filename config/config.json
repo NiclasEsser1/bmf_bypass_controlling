@@ -6,7 +6,7 @@
   "center_freq" : 1337.0,
   "band_groups" : 48,
   "bandwidth_group" : 7,
-  "log_file" : "/phased-array-feed/log/",
+  "log_dir" : "/home/pulsar/nesser/Projects/phased-array-feed/log/",
   "cpus_per_node" : 10,
   "capture_control" : 0,
   "bind_cpu" : 1,
@@ -23,6 +23,7 @@
   "soure_information" : "UNKNOWN_00:00:00.00_00:00:00.00",
   "padding" : 0,
   "dockername" : "capture_bypassed_bmf_",
+  "dockerimage" : "edd01:5000/capture_bypassed_bmf_2",
   "script_dir" : "/home/pulsar/nesser/Projects/phased-array-feed/script/",
   "launch_script" : {
       "name":"launch_capture.py",
